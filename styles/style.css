@@ -1,0 +1,234 @@
+/*
+
+@font-face {
+  font-family: BrownStd-Bold;
+  src: url("../BrownStd-Bold.otf");
+}
+
+@font-face {
+  font-family: BrownStd-Light;
+  src: url("../BrownStd-Light.otf");
+}
+
+@font-face {
+  font-family: BrownStd-Regular;
+  src: url("../BrownStd-Regular.otf");
+}
+
+@font-face {
+  font-family: "Big Caslon Medium";
+  src: url("Big Caslon Medium.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 2px solid black;
+}
+
+.outline {
+  outline: 1px solid black;
+}
+nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+ul {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+
+  align-items: center;
+  margin-left: 30px;
+  outline: 2px solid black;
+}
+li {
+  font-family: "BrownStd-Regular";
+  list-style: none;
+  text-transform: uppercase;
+  padding: 19px;
+  margin: 70px 0 5px 0;
+  font-size: 15px;
+  color: rgb(106, 106, 106);
+}
+.blanche {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 30px;
+  margin-top: 25px;
+}
+
+.blanche > img {
+  width: 200px;
+}
+
+.contact-and-icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  outline: 2px solid black;
+  margin-right: 50px;
+  width: 300px;
+}
+
+.contact {
+  font-family: "BrownStd-Regular";
+  color: rgb(106, 106, 106);
+  font-size: 15px;
+  text-transform: uppercase;
+  /* display: flex;
+  align-items: center; 
+
+  outline: 2px solid black;
+}
+.cart-login-search-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  width: 50px;
+  outline: 2px solid black;
+}
+
+.cart-login-search-container {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-login-search-container > img {
+  width: 15px;
+}
+
+.main-img {
+  position: relative;
+  margin-top: 80px;
+}
+.main-img > img {
+  width: 100vw;
+  position: absolute;
+  z-index: 0;
+}
+
+.text-container {
+  position: absolute;
+  width: 100vw;
+  height: 575px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-container > p {
+  text-transform: capitalize;
+  font-family: "Big Caslon Medium";
+  color: rgb(106, 106, 106);
+  width: 260px;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.3rem;
+}
+
+.text-container > span {
+  color: rgb(192, 192, 190);
+  text-transform: uppercase;
+  font-family: BrownStd-Light;
+  font-size: 8px;
+  position: relative;
+  top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.vl {
+  border-left: 0.5px solid rgb(164, 163, 158);
+  height: 75px;
+  margin-left: 16px;
+}
+
+.section-one {
+  padding-top: 40rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.section-one > p {
+  margin-top: 20px;
+  width: 450px;
+  font-family: "Big Caslon Medium";
+  color: rgb(106, 106, 106);
+  font-size: 0.8rem;
+}
+.products {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 69vw;
+  position: relative;
+}
+
+.sample-prod {
+  width: 34.5vw;
+  height: 300px;
+}
+
+.btn-main-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn-container {
+  height: 299px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+button {
+  font-family: BrownStd-regular;
+  margin-bottom: 30px;
+  text-align: center;
+  border: none;
+  width: 130px;
+  height: 25px;
+  font-size: 0.48rem;
+  color: rgb(106, 106, 106);
+}
+
+button:hover {
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+}
+
+.section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+.section-two > span {
+  font-family: "Big Caslon Medium";
+  color: rgb(106, 106, 106);
+  font-size: 0.9rem;
+}
