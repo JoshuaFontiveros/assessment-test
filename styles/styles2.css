@@ -32,6 +32,9 @@ nav {
   justify-content: space-evenly;
 }
 
+body {
+  overflow-x: hidden;
+}
 ul {
   display: flex;
   justify-content: space-evenly;
@@ -84,11 +87,12 @@ li {
 .main-img {
   position: relative;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .main-img > img {
   width: 100vw;
-  height: 86.38vh;
+  height: 86vh;
 }
 .main-img > p {
   position: absolute;
@@ -99,4 +103,105 @@ li {
   color: rgb(106, 106, 106);
   font-size: 2.5em;
   margin-top: 2em;
+}
+
+.explore {
+  position: absolute;
+  bottom: 0;
+  text-transform: uppercase;
+  font-family: BrownStd-Regular;
+  color: rgb(192, 190, 191);
+  width: auto;
+  display: flex;
+  bottom: 6em;
+}
+.line-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 4.5em;
+  width: 100%;
+  /* outline: 2px solid black; */
+}
+.vl {
+  border-left: 1px solid rgb(162, 161, 156);
+  height: 10em;
+  margin-left: 0.1em;
+  top: 3em;
+  z-index: 999;
+}
+
+.section-one {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.section-one p {
+  font-family: "Big Caslon Medium";
+  color: rgb(106, 106, 106);
+  font-size: 1.5rem;
+  width: 55%;
+  text-align: center;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 5em;
+}
+
+.product-container {
+  width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.product-container > img {
+  width: 35vw;
+}
+
+.btn-main-main-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 67em;
+  height: 100%;
+}
+.btn-main-container {
+  width: 50%;
+
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.btn-container {
+  position: absolute;
+  background-color: white;
+  border: none;
+  margin-bottom: 4.5em;
+  height: auto;
+}
+
+button {
+  border: none;
+  width: 10em;
+  font-family: BrownStd-Regular;
+  background-color: white;
+  color: rgb(106, 106, 106);
+  height: 4em;
+  width: 20em;
+  text-align: center;
+}
+
+button:hover {
+  transition: 0.5s all ease;
+  background-color: rgb(0, 0, 0, 0.6);
+  color: #fff;
 }
