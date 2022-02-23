@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joshua",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "mime-types": "^2.1.34"
+  }
+}
